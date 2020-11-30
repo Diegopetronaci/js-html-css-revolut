@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.nav-menu {
+    margin: auto;
+    background-color: rgb(236, 234, 234);
+    padding: 15px;
+    position: relative;
+}
+
+.p_20{
+    padding: 20px;
+}
+li{
+    list-style: none;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: slategrey;
+}
+
+a:hover{
+    color: black;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.text-center{
+    text-align: center;
+}
+.content-around {
+    justify-content: space-around;
+}
+
+.content-between {
+    justify-content: space-between;
+}
+
+.logo, .personale, .business, .links > a {
+    margin-right: 10px;
+}
+
+.button {
+    background-color: chartreuse;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.invisible{
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+
+.col {
+    background-color: white;
+    position: absolute;
+    transform: translateX(-50% -50%);
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.link_uno {
+    width: 300px;
+    left: 47%; 
+}
+
+.link_due {
+    width: 100px;
+    left: 59%;
+}
+
+.link_tre {
+    width: 100px;
+    left: 63%;
+}
+
+.link_quattro {
+    width: 100px;
+    left: 67%;
+}
+
+.link_cinque {
+    width: 100px;
+    left: 72%;
+} 
